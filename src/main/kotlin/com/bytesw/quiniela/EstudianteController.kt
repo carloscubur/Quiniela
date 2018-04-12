@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController
 
 @RestController
 class EstudianteController {
-    @GetMapping("/dummy-student")
+    @GetMapping("/dummy-estudiante")
     fun Estudiantes(@RequestParam nombre:String):Estudiante {
         val estudiante = Estudiante("1", nombre)
         return estudiante
