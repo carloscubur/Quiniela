@@ -6,7 +6,7 @@ db.usuarios.insert([
 
 ]);
 
-
+/*Ganadores*/
 db.ganadores.insert([
     {anio: 1930, sede: 'Uruguay', primer_lugar: 'Uruguay', segundo_lugar: 'Argentina', tercer_lugar: 'Estados Unidos'},
     {anio: 1934, sede: 'Italia', primer_lugar: 'Italia', segundo_lugar: 'Checoslovaquia', tercer_lugar: 'Alemania'},
